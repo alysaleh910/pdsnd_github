@@ -5,7 +5,7 @@
 Bike Share
 
 ### Description
-Describe what your project is about and what it does
+the project is about bike share data from 3 different cities; Chicago, New York City, and Washington. The project will give data about bike rentals from these three cities to the user depending on the filters the user chooses.
 
 ### Files used
 Include the files used
