@@ -197,7 +197,7 @@ def user_stats(df):
         gender=df['Gender'].value_counts()
         print('Count of genders is:', gender)
     except KeyError:
-        print('no data available for gender')
+        print('No data available for gender')
 
     # Display earliest, most recent, and most common year of birth
     try:
@@ -208,7 +208,7 @@ def user_stats(df):
         'The most recent year of birth is: {}\n'
         'The most common year of birth is: {}'.format(earliest_dob, recent_dob, common_dob))
     except KeyError:
-        print("no data available for birth year")
+        print("No data available for birth year")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
